@@ -10,7 +10,7 @@ export const Header = () => {
             <header className="col-xl-12">
                 <div className="row">
                     <div className="col-xl-2 col-sm-3 col-md-3">
-                        <a href="#" className="navbar-brand p-0" >
+                        <a href="/#" className="navbar-brand p-0" >
                             <CompanyLogo />
                         </a>
                     </div>
@@ -25,7 +25,7 @@ export const Header = () => {
                                         Today <span className="caret"></span>
                                     </button>
                                     <div className="dropdown-menu" aria-labelledby="headerDropdownToggle">
-                                        <a className="today text-bold" href="#">Today</a>
+                                        <a className="today text-bold" href="/#">Today</a>
                                     </div>
                                 </div>
                             </div>
