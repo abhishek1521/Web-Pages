@@ -1,0 +1,7 @@
+What is reactjs?
+reactjs is open source library used to build User Interfaces. reactjs created by facebook.
+
+var,let,const
+var can access variable anywhere if declared within the function.
+let can access variable only within the scope in the function.
+const can access variable only within the scope in the function and cannot be re-assigned.
