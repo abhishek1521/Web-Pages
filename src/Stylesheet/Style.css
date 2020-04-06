@@ -141,7 +141,7 @@ color: #9EB2B6;
 }
 .bank-details p{
     white-space: nowrap;
-    width: 250px;
+    width: 220px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
