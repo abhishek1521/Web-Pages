@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Locobuzz from './Locobuzz';
 
-function App() {
+export default class App extends React.Component {
+  togglePopover = () => {
+    var x = document.getElementById("media-popover");
+    x.style.display = (x.dataset.toggled ^= 1) ? "inline-block" : "none";
+}
+ render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Locobuzz togglePopover={this.togglePopover}/>
     </div>
   );
+ }
 }
 
-export default App;
