@@ -1,3 +1,9 @@
+clone URL and install npm on local. 
+
+Hit URL http://localhost:3000/dashboard-1 for template one.
+
+Hit URL http://localhost:3000/dashboard-2 for template two
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
